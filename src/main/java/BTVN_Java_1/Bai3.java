@@ -1,4 +1,4 @@
-package org.example;
+package BTVN_Java_1;
 
 import java.util.Scanner;
 

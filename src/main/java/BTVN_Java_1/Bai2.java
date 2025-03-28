@@ -1,4 +1,4 @@
-package org.example;
+package BTVN_Java_1;
 
 import java.util.Scanner;
 
@@ -16,19 +16,16 @@ public class Bai2 {
         int Tong = a + b;
         int Hieu = a - b ;
         int Tich = a*b;
-        int Thuong = (b !=0) ? (a/b) : 0;
-        int PhanDu = (b !=0) ? (a%b) : 0;
-
-
 
         System.out.println(" Tổng của 2 số là: " + Tong);
         System.out.println(" Hiệu của 2 số là: " + Hieu);
         System.out.println(" Tích của 2 số là: " + Tich);
 
         if (b == 0)
-        {
             System.out.println("Không chia được cho 0");
-        } else {
+        else {
+            int Thuong = a/b;
+            int PhanDu = a%b;
             System.out.println(" Thương là: " + Thuong);
             System.out.println(" Phần dư là: " + PhanDu);
         }
