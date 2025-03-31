@@ -29,5 +29,9 @@ public class Bai2 {
             System.out.println(" Thương là: " + Thuong);
             System.out.println(" Phần dư là: " + PhanDu);
         }
+        // Sử dụng toán tử 3 ngôi
+//        String thuong = ( b != 0) ? ( " Giá trị của thương 2 số là: " + a/b ) : " Thương: Không chia được cho 0";
+//        System.out.println(thuong);
+
     }
 }
