@@ -5,8 +5,9 @@ import java.util.Scanner;
 public class Bai2 {
     public static void main(String[] args) {
 
-        //Bài 2. Viết chương trình khai báo 2 số nguyên a và b, sau đó tính tổng, hiệu, tích,
-        // thương và chia lấy phần dư
+        /**Bài 2. Viết chương trình khai báo 2 số nguyên a và b, sau đó tính tổng, hiệu, tích,
+         * thương và chia lấy phần dư
+         */
         Scanner sc = new Scanner(System.in);
         System.out.println(" Nhập giá trị của số nguyên a: ");
         int a = sc.nextInt();
@@ -32,6 +33,8 @@ public class Bai2 {
         // Sử dụng toán tử 3 ngôi
 //        String thuong = ( b != 0) ? ( " Giá trị của thương 2 số là: " + a/b ) : " Thương: Không chia được cho 0";
 //        System.out.println(thuong);
+//        String phanDu = ( b != 0) ? ( " Giá trị phần dư 2 số là: " + a%b ) : " Phần dư: Không chia được cho 0";
+//        System.out.println(phanDu);
 
     }
 }
